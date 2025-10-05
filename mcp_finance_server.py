@@ -11,7 +11,7 @@ from typing import Dict, Any
 mcp = FastMCP("AlphaVantageTrader", dependencies=["requests", "pandas", "tabulate"])
 
 # Constants and configurations
-API_KEY = "B4IJXXCSN2NXF4PH"  # Replace with your actual AlphaVantage API key
+API_KEY = ""  # Replace with your actual AlphaVantage API key
 
 @dataclass
 class MarketData:
